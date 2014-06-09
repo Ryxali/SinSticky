@@ -26,10 +26,10 @@ public class TonguedMove : MonoBehaviour {
 			Vector3 direction = Vector3.Normalize(tongueEnd.transform.position - rigidbody.position);
 			Vector3 newVelocity = direction * flyspeed;
 
-			if (distance > stopDistance)
-				rigidbody.velocity = newVelocity;
-
 			/*if (distance > stopDistance)
+				rigidbody.velocity = newVelocity;*/
+
+			if (distance > stopDistance)
 			{
 				if (Vector3.Distance(rigidbody.velocity + rigidbody.position, tongueEnd.transform.position) < distance)
 				{
@@ -43,7 +43,7 @@ public class TonguedMove : MonoBehaviour {
 					temp.y = 0;
 					rigidbody.velocity = temp;
 				}
-			}*/
+			}
 		}
 	}
 }
