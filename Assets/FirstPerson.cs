@@ -52,7 +52,7 @@ public class FirstPerson : MonoBehaviour {
 				distance -= 1;
 			}
 			Quaternion rotation = Quaternion.Euler((float)y, (float)x, 0.0f);
-			Vector3 position = rotation * new Vector3(0.0f, 0.0f, (float)-distance) + target.position + new Vector3(0.0f, offsetY, 0.0f);
+			Vector3 position = rotation * new Vector3(0.0f, 0.0f, (float)-distance) + target.position + target.up*offsetY;
 
 			transform.rotation = rotation;
 			transform.position = position;
