@@ -11,6 +11,8 @@ public class FirstPerson : MonoBehaviour {
 	public double yMinLimit = -20;
 	public double yMaxLimit = 80;
 
+	public float offsetY = 0.0f;
+
 	private double x = 0.0;
 	private double y = 0.0;
 	// Use this for initialization
@@ -26,7 +28,7 @@ public class FirstPerson : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		
 	}
 
 	double clamp(double x, double min, double max) {
@@ -50,7 +52,7 @@ public class FirstPerson : MonoBehaviour {
 				distance -= 1;
 			}
 			Quaternion rotation = Quaternion.Euler((float)y, (float)x, 0.0f);
-			Vector3 position = rotation * new Vector3(0.0f, 0.0f, (float)-distance) + target.position;
+			Vector3 position = rotation * new Vector3(0.0f, 0.0f, (float)-distance) + target.position + new Vector3(0.0f, offsetY, 0.0f);
 
 			transform.rotation = rotation;
 			transform.position = position;
