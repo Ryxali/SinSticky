@@ -11,9 +11,7 @@ public class TongueController : MonoBehaviour {
 	void Start () {
 		//camera = GameObject.FindWithTag ("MainCamera");
 		//rigidbody.AddForce (camera.transform.forward * force);
-		stop = false;
-		collider.enabled = false;
-		renderer.enabled = false;
+		die ();
 	}
 	// Update is called once per frame
 	void Update () {
