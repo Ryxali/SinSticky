@@ -61,6 +61,7 @@ public class TongueController : MonoBehaviour {
 
 	void live()
 	{
+		rigidbody.isKinematic = false;
 		collider.enabled = true;
 		//renderer.enabled = true;
 		rigidbody.AddForce (cam.transform.forward * force);
@@ -75,6 +76,7 @@ public class TongueController : MonoBehaviour {
 		stop = false;
 		alive = false;
 		stage = Stage.standby;
+		rigidbody.isKinematic = true;
 	}
 
 	public Stage getStage()
