@@ -25,6 +25,9 @@ public class TongueController : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
+		//Debug.Log (stage);
+
+
 		if (Input.GetButtonDown ("Fire1")) {
 			live ();
 		} 
@@ -60,7 +63,6 @@ public class TongueController : MonoBehaviour {
 	{
 		collider.enabled = true;
 		//renderer.enabled = true;
-		rigidbody.position = tongueSpawn.transform.position;
 		rigidbody.AddForce (cam.transform.forward * force);
 		alive = true;
 		stage = Stage.shooting;
