@@ -6,9 +6,13 @@ public class TonguedMove : MonoBehaviour {
 	public float flyspeed;
 	public float stopDistance;
 	public GameObject tongueEnd;
+	public GameObject dragObject;
 
 	// Use this for initialization
 	void Start () {
+		if (dragObject == null) {
+			dragObject = gameObject;
+		}
 	}
 	
 	// Update is called once per frame
