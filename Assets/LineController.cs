@@ -30,6 +30,6 @@ public class LineController : MonoBehaviour {
 	{
 		LineRenderer lineRenderer = GetComponent<LineRenderer> ();
 		transform.position = player.rigidbody.position;
-		lineRenderer.SetPosition (0, target.transform.position);
+		lineRenderer.SetPosition (0, target.transform.position - transform.position);
 	}
 }
