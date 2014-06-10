@@ -5,6 +5,7 @@ public class TongueController : MonoBehaviour {
 	public GameObject cam;
 	public GameObject tongueSpawn;
 	public float force;
+	public float initOffset = 1.0f;
 
 	public enum Stage
 	{
@@ -29,6 +30,7 @@ public class TongueController : MonoBehaviour {
 
 
 		if (Input.GetButtonDown ("Fire1")) {
+
 			live ();
 		} 
 
@@ -48,8 +50,15 @@ public class TongueController : MonoBehaviour {
 		}
 	}
 
-	void OnCollisionEnter()
+	void OnCollisionEnter(Collision collision)
 	{
+		if (collision.gameObject.tag == "Player")
+			return;
+		if (collision.gameObject.tag == "Unhookable") {
+			die ();
+			return;
+		}
+		print (collision.gameObject.name);
 		stop = true;
 		stage = Stage.reeling;
 	}
@@ -64,6 +73,7 @@ public class TongueController : MonoBehaviour {
 		rigidbody.isKinematic = false;
 		collider.enabled = true;
 		//renderer.enabled = true;
+		rigidbody.MovePosition(rigidbody.position + Vector3.up*initOffset);
 		rigidbody.AddForce (cam.transform.forward * force);
 		alive = true;
 		stage = Stage.shooting;
