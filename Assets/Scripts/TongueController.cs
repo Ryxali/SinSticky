@@ -6,14 +6,14 @@ public class TongueController : MonoBehaviour {
 	public GameObject tongueSpawn;
 	public float force;
 
-	enum Stage
+	public enum Stage
 	{
 		shooting,
 		reeling,
 		standby
 	};
 
-	string stage;
+	Stage stage;
 
 	private bool stop;
 	private bool alive;
@@ -63,7 +63,7 @@ public class TongueController : MonoBehaviour {
 		rigidbody.position = tongueSpawn.transform.position;
 		rigidbody.AddForce (cam.transform.forward * force);
 		alive = true;
-		stage = Stage.shooting
+		stage = Stage.shooting;
 	}
 
 	void die()
@@ -75,7 +75,7 @@ public class TongueController : MonoBehaviour {
 		stage = Stage.standby;
 	}
 
-	public string getStage()
+	public Stage getStage()
 	{
 		return stage;
 	}
