@@ -6,14 +6,22 @@ public class TongueController : MonoBehaviour {
 	public GameObject tongueSpawn;
 	public float force;
 
+	public enum Stage
+	{
+		shooting,
+		reeling,
+		standby
+	};
+
+	Stage stage;
+
 	private bool stop;
+	private bool alive;
 	// Use this for initialization
 	void Start () {
 		//camera = GameObject.FindWithTag ("MainCamera");
 		//rigidbody.AddForce (camera.transform.forward * force);
-		stop = false;
-		collider.enabled = false;
-		renderer.enabled = false;
+		die ();
 	}
 	// Update is called once per frame
 	void Update () {
@@ -26,6 +34,11 @@ public class TongueController : MonoBehaviour {
 			die ();
 		}
 
+		if (!alive) 
+		{
+			rigidbody.position = tongueSpawn.transform.position;
+		}
+
 		if (stop) 
 		{
 			rigidbody.Sleep ();
@@ -35,6 +48,7 @@ public class TongueController : MonoBehaviour {
 	void OnCollisionEnter()
 	{
 		stop = true;
+		stage = Stage.reeling;
 	}
 
 	public bool getStop()
@@ -45,15 +59,24 @@ public class TongueController : MonoBehaviour {
 	void live()
 	{
 		collider.enabled = true;
-		renderer.enabled = true;
+		//renderer.enabled = true;
 		rigidbody.position = tongueSpawn.transform.position;
 		rigidbody.AddForce (cam.transform.forward * force);
+		alive = true;
+		stage = Stage.shooting;
 	}
 
 	void die()
 	{
 		collider.enabled = false;
-		renderer.enabled = false;
+		//renderer.enabled = false;
 		stop = false;
+		alive = false;
+		stage = Stage.standby;
+	}
+
+	public Stage getStage()
+	{
+		return stage;
 	}
 }

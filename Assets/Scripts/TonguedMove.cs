@@ -6,9 +6,9 @@ public class TonguedMove : MonoBehaviour {
 	public float flyspeed;
 	public float stopDistance;
 	public GameObject tongueEnd;
+
 	// Use this for initialization
 	void Start () {
-	
 	}
 	
 	// Update is called once per frame
@@ -31,7 +31,8 @@ public class TonguedMove : MonoBehaviour {
 
 			/*if (distance > stopDistance)
 			{
-				if (Vector3.Distance(rigidbody.velocity + rigidbody.position, tongueEnd.transform.position) < distance)
+				//if (Vector3.Distance(Vector3.Normalize(rigidbody.velocity) + rigidbody.position, tongueEnd.transform.position) <= distance)
+				if (Vector3.Distance(Vector3.Normalize(rigidbody.velocity), Vector3.Normalize(direction)) < 1.57f)
 				{
 					rigidbody.velocity = newVelocity;
 				}
