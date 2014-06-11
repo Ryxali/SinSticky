@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 5e00f3d9fba44374b9690ba00e12e4b3
 =======
 guid: 25a6e93d0b3a0d44cb5d0f596852263d
@@ -8,6 +9,9 @@ guid: 25a6e93d0b3a0d44cb5d0f596852263d
 =======
 guid: c5c21b64acce9a04ba2bb899914f8023
 >>>>>>> animation
+=======
+guid: 5e00f3d9fba44374b9690ba00e12e4b3
+>>>>>>> wiggle
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
