@@ -75,6 +75,7 @@ public class TongueController : MonoBehaviour {
 		//renderer.enabled = true;
 		rigidbody.MovePosition(rigidbody.position + Vector3.up*initOffset);
 		rigidbody.AddForce (cam.transform.forward * force);
+		transform.LookAt(rigidbody.position + cam.transform.forward);
 		alive = true;
 		stage = Stage.shooting;
 	}

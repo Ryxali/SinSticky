@@ -19,7 +19,7 @@ public class InspectController : MonoBehaviour {
 		if (renderer.isVisible && inspectionEnabled) {
 			GameObject camera = GameObject.Find ("Main Camera");
 			float distance = Vector3.Distance (camera.GetComponent<Transform> ().position, transform.position);
-			if (distance >= 20) {
+			if (distance >= 13) {
 				DeactiveText();
 				return;
 			}

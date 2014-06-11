@@ -16,8 +16,9 @@ public class ValdgunController : MonoBehaviour {
 	private bool forcePushBool;
 	public float pushForce;
 	public float pushWaitTime;
-
+	public GameObject victor;
 	private bool walk;
+	private bool attacking = false;
 
 	//private Transform targetRotationTransform;
 
@@ -39,8 +40,9 @@ public class ValdgunController : MonoBehaviour {
 		if (forcePushBool && Time.time > forcePushTimer) 
 		{
 			forcePushBool = false;
-			GameObject player = GameObject.Find("Player");
-			player.rigidbody.AddForce(pushForce * transform.forward);
+			//GameObject player = GameObject.Find("Player");
+			victor.rigidbody.AddForce(pushForce * transform.forward);
+			attacking = false;
 		}
 
 		float step = rotationSpeed * Time.deltaTime;
@@ -54,8 +56,8 @@ public class ValdgunController : MonoBehaviour {
 		if (stateInfo.nameHash == Animator.StringToHash("Base Layer.Attack"))
 	    {
 			animator.SetBool("Attacking", false);
-			GameObject player = GameObject.Find("Player");
-			setTargetRotationTransform(player.transform);
+			//GameObject player = GameObject.Find("Player");
+			setTargetRotationTransform(victor.transform);
 		}
 
 	//Patrolling
@@ -98,8 +100,9 @@ public class ValdgunController : MonoBehaviour {
 	void OnCollisionEnter(Collision collision)
 	{
 		//On collision with player, rotate toward player and attack
-		if (collision.gameObject.tag == "Player") 
+		if (collision.gameObject.tag == "Player" && !attacking) 
 		{
+			attacking = true;
 			animator.SetBool("Attacking", true);
 
 			setTargetRotationTransform(collision.transform);
