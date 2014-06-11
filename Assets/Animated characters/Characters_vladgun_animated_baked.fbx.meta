@@ -1,13 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
 guid: 5e00f3d9fba44374b9690ba00e12e4b3
-=======
-guid: 25a6e93d0b3a0d44cb5d0f596852263d
->>>>>>> ed9e49549b9d448b17aae7383266bc5321f38ec2
-=======
-guid: c5c21b64acce9a04ba2bb899914f8023
->>>>>>> animation
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -144,13 +136,9 @@ ModelImporter:
     4300000: pSphere2
     4300002: pSphere1
     4300004: Characters_NPC_Valdgunn_Valdgunn
-<<<<<<< HEAD
-    7400000: Take 001
-=======
     7400000: Walk
     7400002: Idle
     7400004: Attack
->>>>>>> animation
     9500000: //RootNode
     13700000: Characters_NPC_Valdgunn_Valdgunn
   materials:
@@ -167,9 +155,6 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-<<<<<<< HEAD
-    clipAnimations: []
-=======
     clipAnimations:
     - serializedVersion: 16
       name: Walk
@@ -627,7 +612,6 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
->>>>>>> animation
     isReadable: 1
   meshes:
     lODScreenPercentages: []
