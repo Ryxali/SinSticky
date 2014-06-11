@@ -1,0 +1,652 @@
+fileFormatVersion: 2
+guid: c5c21b64acce9a04ba2bb899914f8023
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Characters_NPC_Valdgunn_Valdgunn
+    100002: //RootNode
+    100004: geo_group
+    100006: head_joint
+    100008: joint1
+    100010: joint10
+    100012: joint11
+    100014: joint12
+    100016: joint13
+    100018: joint14
+    100020: joint15
+    100022: joint2
+    100024: joint3
+    100026: joint4
+    100028: joint5
+    100030: joint6
+    100032: joint7
+    100034: joint8
+    100036: joint9
+    100038: L_ball_joint
+    100040: L_collar_joint
+    100042: L_elbow_joint
+    100044: L_foot_joint
+    100046: L_hand_joint
+    100048: L_hip_joint
+    100050: L_indexfinger_1_joint
+    100052: L_indexfinger_2_joint
+    100054: L_indexfinger_3_joint
+    100056: L_knee_joint
+    100058: L_middlefinger_1_joint
+    100060: L_middlefinger_2_joint
+    100062: L_middlefinger_3_joint
+    100064: L_pinkyfinger_1_joint
+    100066: L_pinkyfinger_2_joint
+    100068: L_pinkyfinger_3_joint
+    100070: L_ringfinger_1_joint
+    100072: L_ringfinger_2_joint
+    100074: L_ringfinger_3_joint
+    100076: L_shoulder_joint
+    100078: L_thumb_1_joint
+    100080: L_thumb_2_joint
+    100082: L_thumb_3_joint
+    100084: L_toe_joint
+    100086: L_wrist_joint
+    100088: neck_joint
+    100090: pelvis_joint
+    100092: pSphere1
+    100094: pSphere2
+    100096: R_ball_joint
+    100098: R_collar_joint
+    100100: R_elbow_joint
+    100102: R_foot_joint
+    100104: R_hand_joint
+    100106: R_hip_joint
+    100108: R_knee_joint
+    100110: R_shoulder_joint
+    100112: R_toe_joint
+    100114: R_wrist_joint
+    100116: skeleton_group
+    100118: spine_1_joint
+    100120: spine_2_joint
+    100122: spine_3_joint
+    100124: spine_4_joint
+    400000: Characters_NPC_Valdgunn_Valdgunn
+    400002: //RootNode
+    400004: geo_group
+    400006: head_joint
+    400008: joint1
+    400010: joint10
+    400012: joint11
+    400014: joint12
+    400016: joint13
+    400018: joint14
+    400020: joint15
+    400022: joint2
+    400024: joint3
+    400026: joint4
+    400028: joint5
+    400030: joint6
+    400032: joint7
+    400034: joint8
+    400036: joint9
+    400038: L_ball_joint
+    400040: L_collar_joint
+    400042: L_elbow_joint
+    400044: L_foot_joint
+    400046: L_hand_joint
+    400048: L_hip_joint
+    400050: L_indexfinger_1_joint
+    400052: L_indexfinger_2_joint
+    400054: L_indexfinger_3_joint
+    400056: L_knee_joint
+    400058: L_middlefinger_1_joint
+    400060: L_middlefinger_2_joint
+    400062: L_middlefinger_3_joint
+    400064: L_pinkyfinger_1_joint
+    400066: L_pinkyfinger_2_joint
+    400068: L_pinkyfinger_3_joint
+    400070: L_ringfinger_1_joint
+    400072: L_ringfinger_2_joint
+    400074: L_ringfinger_3_joint
+    400076: L_shoulder_joint
+    400078: L_thumb_1_joint
+    400080: L_thumb_2_joint
+    400082: L_thumb_3_joint
+    400084: L_toe_joint
+    400086: L_wrist_joint
+    400088: neck_joint
+    400090: pelvis_joint
+    400092: pSphere1
+    400094: pSphere2
+    400096: R_ball_joint
+    400098: R_collar_joint
+    400100: R_elbow_joint
+    400102: R_foot_joint
+    400104: R_hand_joint
+    400106: R_hip_joint
+    400108: R_knee_joint
+    400110: R_shoulder_joint
+    400112: R_toe_joint
+    400114: R_wrist_joint
+    400116: skeleton_group
+    400118: spine_1_joint
+    400120: spine_2_joint
+    400122: spine_3_joint
+    400124: spine_4_joint
+    2300000: pSphere1
+    2300002: pSphere2
+    3300000: pSphere1
+    3300002: pSphere2
+    4300000: pSphere2
+    4300002: pSphere1
+    4300004: Characters_NPC_Valdgunn_Valdgunn
+    7400000: Walk
+    7400002: Idle
+    7400004: Attack
+    9500000: //RootNode
+    13700000: Characters_NPC_Valdgunn_Valdgunn
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: geo_group
+        weight: 1
+      - path: geo_group/Characters_NPC_Valdgunn_Valdgunn
+        weight: 1
+      - path: skeleton_group
+        weight: 1
+      - path: skeleton_group/pelvis_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/L_hip_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/L_hip_joint/L_knee_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/L_hip_joint/L_knee_joint/L_foot_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/L_hip_joint/L_knee_joint/L_foot_joint/L_ball_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/L_hip_joint/L_knee_joint/L_foot_joint/L_ball_joint/L_toe_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/R_hip_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/R_hip_joint/R_knee_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/R_hip_joint/R_knee_joint/R_foot_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/R_hip_joint/R_knee_joint/R_foot_joint/R_ball_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/R_hip_joint/R_knee_joint/R_foot_joint/R_ball_joint/R_toe_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_indexfinger_1_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_indexfinger_1_joint/L_indexfinger_2_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_indexfinger_1_joint/L_indexfinger_2_joint/L_indexfinger_3_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_middlefinger_1_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_middlefinger_1_joint/L_middlefinger_2_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_middlefinger_1_joint/L_middlefinger_2_joint/L_middlefinger_3_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_pinkyfinger_1_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_pinkyfinger_1_joint/L_pinkyfinger_2_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_pinkyfinger_1_joint/L_pinkyfinger_2_joint/L_pinkyfinger_3_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_ringfinger_1_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_ringfinger_1_joint/L_ringfinger_2_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_ringfinger_1_joint/L_ringfinger_2_joint/L_ringfinger_3_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_thumb_1_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_thumb_1_joint/L_thumb_2_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_thumb_1_joint/L_thumb_2_joint/L_thumb_3_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/neck_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/neck_joint/head_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/neck_joint/pSphere1
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/neck_joint/pSphere2
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint1
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint1/joint2
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint1/joint2/joint3
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint4
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint4/joint5
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint4/joint5/joint6
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint7
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint7/joint8
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint7/joint8/joint9
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint10
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint10/joint11
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint10/joint11/joint12
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint13
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint13/joint14
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint13/joint14/joint15
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 41
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: geo_group
+        weight: 1
+      - path: geo_group/Characters_NPC_Valdgunn_Valdgunn
+        weight: 1
+      - path: skeleton_group
+        weight: 1
+      - path: skeleton_group/pelvis_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/L_hip_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/L_hip_joint/L_knee_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/L_hip_joint/L_knee_joint/L_foot_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/L_hip_joint/L_knee_joint/L_foot_joint/L_ball_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/L_hip_joint/L_knee_joint/L_foot_joint/L_ball_joint/L_toe_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/R_hip_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/R_hip_joint/R_knee_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/R_hip_joint/R_knee_joint/R_foot_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/R_hip_joint/R_knee_joint/R_foot_joint/R_ball_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/R_hip_joint/R_knee_joint/R_foot_joint/R_ball_joint/R_toe_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_indexfinger_1_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_indexfinger_1_joint/L_indexfinger_2_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_indexfinger_1_joint/L_indexfinger_2_joint/L_indexfinger_3_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_middlefinger_1_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_middlefinger_1_joint/L_middlefinger_2_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_middlefinger_1_joint/L_middlefinger_2_joint/L_middlefinger_3_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_pinkyfinger_1_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_pinkyfinger_1_joint/L_pinkyfinger_2_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_pinkyfinger_1_joint/L_pinkyfinger_2_joint/L_pinkyfinger_3_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_ringfinger_1_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_ringfinger_1_joint/L_ringfinger_2_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_ringfinger_1_joint/L_ringfinger_2_joint/L_ringfinger_3_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_thumb_1_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_thumb_1_joint/L_thumb_2_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_thumb_1_joint/L_thumb_2_joint/L_thumb_3_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/neck_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/neck_joint/head_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/neck_joint/pSphere1
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/neck_joint/pSphere2
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint1
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint1/joint2
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint1/joint2/joint3
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint4
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint4/joint5
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint4/joint5/joint6
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint7
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint7/joint8
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint7/joint8/joint9
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint10
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint10/joint11
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint10/joint11/joint12
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint13
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint13/joint14
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint13/joint14/joint15
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: geo_group
+        weight: 1
+      - path: geo_group/Characters_NPC_Valdgunn_Valdgunn
+        weight: 1
+      - path: skeleton_group
+        weight: 1
+      - path: skeleton_group/pelvis_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/L_hip_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/L_hip_joint/L_knee_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/L_hip_joint/L_knee_joint/L_foot_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/L_hip_joint/L_knee_joint/L_foot_joint/L_ball_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/L_hip_joint/L_knee_joint/L_foot_joint/L_ball_joint/L_toe_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/R_hip_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/R_hip_joint/R_knee_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/R_hip_joint/R_knee_joint/R_foot_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/R_hip_joint/R_knee_joint/R_foot_joint/R_ball_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/R_hip_joint/R_knee_joint/R_foot_joint/R_ball_joint/R_toe_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_indexfinger_1_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_indexfinger_1_joint/L_indexfinger_2_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_indexfinger_1_joint/L_indexfinger_2_joint/L_indexfinger_3_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_middlefinger_1_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_middlefinger_1_joint/L_middlefinger_2_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_middlefinger_1_joint/L_middlefinger_2_joint/L_middlefinger_3_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_pinkyfinger_1_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_pinkyfinger_1_joint/L_pinkyfinger_2_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_pinkyfinger_1_joint/L_pinkyfinger_2_joint/L_pinkyfinger_3_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_ringfinger_1_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_ringfinger_1_joint/L_ringfinger_2_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_ringfinger_1_joint/L_ringfinger_2_joint/L_ringfinger_3_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_thumb_1_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_thumb_1_joint/L_thumb_2_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/L_collar_joint/L_shoulder_joint/L_elbow_joint/L_wrist_joint/L_hand_joint/L_thumb_1_joint/L_thumb_2_joint/L_thumb_3_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/neck_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/neck_joint/head_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/neck_joint/pSphere1
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/neck_joint/pSphere2
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint1
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint1/joint2
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint1/joint2/joint3
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint4
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint4/joint5
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint4/joint5/joint6
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint7
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint7/joint8
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint7/joint8/joint9
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint10
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint10/joint11
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint10/joint11/joint12
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint13
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint13/joint14
+        weight: 1
+      - path: skeleton_group/pelvis_joint/spine_1_joint/spine_2_joint/spine_3_joint/spine_4_joint/R_collar_joint/R_shoulder_joint/R_elbow_joint/R_wrist_joint/R_hand_joint/joint13/joint14/joint15
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
