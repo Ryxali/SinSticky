@@ -18,6 +18,7 @@ public class CoffeeScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void OnTriggerEnter(Collider collider) {
+		print (collider.gameObject.tag);
 		if (collider.gameObject.tag != "Player")
 			return;
 		winController.SubCoffee ();

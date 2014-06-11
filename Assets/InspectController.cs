@@ -8,7 +8,7 @@ public class InspectController : MonoBehaviour {
 	public GameObject				prefab;
 
 	void Awake() {
-
+		CreateText ();
 	}
 	// Use this for initialization
 	void Start () {
@@ -20,14 +20,12 @@ public class InspectController : MonoBehaviour {
 			GameObject camera = GameObject.Find ("Main Camera");
 			float distance = Vector3.Distance (camera.GetComponent<Transform> ().position, transform.position);
 			if (distance >= 20) {
-				DestroyText();
+				DeactiveText();
 				return;
 			}
-			if( text == null ) {
-				CreateText ();
-			}
+			ActivateText();
 		} else {
-			DestroyText();
+			DeactiveText();
 		}
 	}
 
@@ -44,6 +42,14 @@ public class InspectController : MonoBehaviour {
 			Destroy(text);
 			text = null;
 		}
+	}
+
+	void ActivateText() {
+		text.gameObject.GetComponent<Renderer>().enabled = true;
+	}
+
+	void DeactiveText() {
+		text.gameObject.GetComponent<Renderer>().enabled = false;
 	}
 
 	void OnDestroy() {
