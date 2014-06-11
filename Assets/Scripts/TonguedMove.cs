@@ -31,7 +31,7 @@ public class TonguedMove : MonoBehaviour {
 			Vector3 newVelocity = direction * flyspeed;
 
 			if (distance > stopDistance)
-				rigidbody.velocity = newVelocity;
+				rigidbody.AddForce(newVelocity);
 
 			/*if (distance > stopDistance)
 			{
