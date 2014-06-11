@@ -38,7 +38,6 @@ public class ValdgunController : MonoBehaviour {
 	{
 		if (forcePushBool && Time.time > forcePushTimer) 
 		{
-			Debug.Log("Hej");
 			forcePushBool = false;
 			GameObject player = GameObject.Find("Player");
 			player.rigidbody.AddForce(pushForce * transform.forward);
