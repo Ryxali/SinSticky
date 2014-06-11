@@ -1,4 +1,10 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: ad6437982b67bf14f8d06aacb7d822d6
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+=======
 <<<<<<< Updated upstream
 guid: f55f40fa011617a4bbed716f31f6847f
 MonoImporter:
@@ -12,6 +18,7 @@ MonoImporter:
   - shader: {fileID: 4800000, guid: 67f8781cad112c75d0008dfa8d76c639, type: 3}
   - textureRamp: {fileID: 2800000, guid: d440902fad11e807d00044888d76c639, type: 3}
 >>>>>>> Stashed changes
+>>>>>>> ed9e49549b9d448b17aae7383266bc5321f38ec2
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -1,4 +1,10 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 55f78c04692148141a57171378b38d6e
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+=======
 <<<<<<< Updated upstream
 guid: b1b475a121a17dc40a3d6f03a9dbe0f3
 MonoImporter:
@@ -14,6 +20,7 @@ MonoImporter:
   - shaderAdapt: {fileID: 4800000, guid: 257bc83cbeb544540bd0e558aa9b1383, type: 3}
   - shaderApply: {fileID: 4800000, guid: f4901f25d4e1542589348bbb89563d8e, type: 3}
 >>>>>>> Stashed changes
+>>>>>>> ed9e49549b9d448b17aae7383266bc5321f38ec2
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

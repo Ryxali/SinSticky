@@ -1,4 +1,10 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 844c991b4a76c9446a90985e6b284fc7
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+=======
 <<<<<<< Updated upstream
 guid: d101ec665f8b94a43bd5e8ae31dbf48d
 MonoImporter:
@@ -11,6 +17,7 @@ MonoImporter:
   defaultReferences:
   - blurShader: {fileID: 4800000, guid: f9d5fa183cd6b45eeb1491f74863cd91, type: 3}
 >>>>>>> Stashed changes
+>>>>>>> ed9e49549b9d448b17aae7383266bc5321f38ec2
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

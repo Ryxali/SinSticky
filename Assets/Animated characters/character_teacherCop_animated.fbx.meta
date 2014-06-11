@@ -1,5 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 42b756dbb603fcd43abdcef766865b50
+=======
+<<<<<<< HEAD
+guid: 8d0eaa266b3273445ae949172b78eb7f
+=======
+<<<<<<< Updated upstream
+guid: 42b756dbb603fcd43abdcef766865b50
+=======
+guid: ec7c301929cdf2c498f5d04cf67fbe02
+>>>>>>> Stashed changes
+>>>>>>> ed9e49549b9d448b17aae7383266bc5321f38ec2
+>>>>>>> 4954ee34a471476e2222bf43a5ae95e4c8df278b
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
